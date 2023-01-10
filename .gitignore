@@ -1,0 +1,6 @@
+*.json
+*.tfstate
+*.csv
+*.exe
+*.bak
+*.hcl
