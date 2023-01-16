@@ -1,4 +1,4 @@
 # Some demo content in vw_terraform_aggregated.sql
-select city
+select City, Name
 from `TerraformDataset.Clients`
-group by city
+group by City, Name
