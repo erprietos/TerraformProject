@@ -1,11 +1,11 @@
 terraform {
   backend "gcs" {
-    bucket = "greaterbank_bucket_terraform"
+    bucket = "greaterbank_bucketterraform"
     prefix = "state"
   }
 }
 
 provider "google" {
-  project = "resonant-gizmo-313011"
+  project = "greaterbank"
   region  = "us-central1"
 }
